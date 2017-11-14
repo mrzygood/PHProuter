@@ -1,0 +1,14 @@
+{
+  "autoload":{
+    "psr-4":{
+      "PHProuter\\" : "src/",
+      "Controllers\\" : "controllers/"
+    }
+  },
+  "require" : {
+    "symfony/http-foundation" : "^3.0"
+  },
+  "require-dev" : {
+    "phpunit/phpunit" : "^6.4"
+  }
+}
